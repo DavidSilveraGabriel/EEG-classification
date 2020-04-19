@@ -1,6 +1,8 @@
 # Using-mne-and-braindecode
 in this mini project i will use the libraries mne and [braindecode](https://robintibor.github.io/braindecode/index.html) to analyze and classify public domain EEG(ML) signals provided by [physionet.org](https://physionet.org/content/eegmmidb/1.0.0/)
 
+# Open the notebook in [colab](https://colab.research.google.com/drive/1a6st3wbP3pNUJw__Ys71ckfUxCbWqFIK)
+
 # the steps 
 - Install the mne and braindecode librarie
 - Dowload the EEG data from physionet
