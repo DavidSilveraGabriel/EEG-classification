@@ -87,7 +87,7 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 ## Define the model
 ### the arquitecture
 
-![shallow](./img/shallow img.png)
+![shallow](https://github.com/DavidSilveraGabriel/Using-mne-and-braindecode/blob/master/img/shallow%20img.png)
 
 
 ## Determine the predictions per input/trial
