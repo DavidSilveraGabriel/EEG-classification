@@ -17,6 +17,7 @@ in this mini project i will use the libraries [mne](https://mne.tools/dev/index.
 
 ## Install the mne and braindecode librarie
 ```python
+
   !pip install mne
   !pip install braindecode
   
