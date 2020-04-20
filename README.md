@@ -1,5 +1,5 @@
 # Using-mne-and-braindecode
-in this mini project i will use the libraries mne and [braindecode](https://robintibor.github.io/braindecode/index.html) to analyze and classify public domain EEG(ML) signals provided by [physionet.org](https://physionet.org/content/eegmmidb/1.0.0/)
+in this mini project i will use the libraries [mne](https://mne.tools/dev/index.html) and [braindecode](https://robintibor.github.io/braindecode/index.html) to analyze and classify public domain EEG(ML) signals provided by [physionet.org](https://physionet.org/content/eegmmidb/1.0.0/) here the [paper](https://arxiv.org/pdf/1703.05051.pdf) from braindecode
 
 # Open the notebook in [colab](https://colab.research.google.com/drive/1a6st3wbP3pNUJw__Ys71ckfUxCbWqFIK)
 
@@ -85,9 +85,10 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
   valid_set = SignalAndTarget(X[2700:3000], y=y[2700:3000]) 
 ```
 ## Define the model
-https://arxiv.org/pdf/1703.05051.pdf
+### the arquitecture
 
-![shallow](img/shallow.png)
+![shallow](/img/shallow.png)
+
 
 ## Determine the predictions per input/trial
 
