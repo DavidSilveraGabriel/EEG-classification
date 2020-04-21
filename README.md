@@ -89,9 +89,69 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 
 ![shallow](https://github.com/DavidSilveraGabriel/Using-mne-and-braindecode/blob/master/img/shallow%20img.png)
 
+    Sequential(
+      (dimshuffle): Expression(expression=_transpose_time_to_spat)
+      (conv_time): Conv2d(1, 40, kernel_size=(25, 1), stride=(1, 1))
+      (conv_spat): Conv2d(40, 40, kernel_size=(1, 64), stride=(1, 1), bias=False)
+      (bnorm): BatchNorm2d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv_nonlin): Expression(expression=square)
+      (pool): AvgPool2d(kernel_size=(75, 1), stride=(1, 1), padding=0)
+      (pool_nonlin): Expression(expression=safe_log)
+      (drop): Dropout(p=0.5, inplace=False)
+      (conv_classifier): Conv2d(40, 2, kernel_size=(27, 1), stride=(1, 1), dilation=(15, 1))
+      (softmax): LogSoftmax()
+      (squeeze): Expression(expression=_squeeze_final_output)
+    )
 
 ## Define the iterator, optimizer, epochs and the scheduler
 
-## Train!!! 
+```pytohn
+    iterator = CropsFromTrialsIterator(batch_size=64,input_time_length=input_time_length,
+                                      n_preds_per_input=n_preds_per_input)
 
+    optimizer = AdamW(model.parameters(), lr=0.06255 * 0.015, weight_decay=0)
+
+    n_epochs = 50
+
+    scheduler = CosineAnnealing(n_epochs * n_updates_per_epoch)
+```
+
+## Train!!! 
+### lets look the last 5 epochs
+```python
+    Epoch 45
+    Train  Loss: 0.11758
+    Train  Accuracy: 98.3%
+    Valid  Loss: 0.57367
+    Valid  Accuracy: 77.3%
+    Epoch 46
+    Train  Loss: 0.11460
+    Train  Accuracy: 98.6%
+    Valid  Loss: 0.57288
+    Valid  Accuracy: 77.0%
+    Epoch 47
+    Train  Loss: 0.11470
+    Train  Accuracy: 98.6%
+    Valid  Loss: 0.57359
+    Valid  Accuracy: 77.3%
+    Epoch 48
+    Train  Loss: 0.11501
+    Train  Accuracy: 98.6%
+    Valid  Loss: 0.57888
+    Valid  Accuracy: 76.7%
+    Epoch 49
+    Train  Loss: 0.11461
+    Train  Accuracy: 98.5%
+    Valid  Loss: 0.57351
+    Valid  Accuracy: 77.0%
+```
 ## Test!!!
+```python
+
+    Test Loss: 0.59670
+    Test Accuracy: 70.5%
+
+```
+
+
+
