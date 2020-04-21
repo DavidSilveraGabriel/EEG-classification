@@ -10,7 +10,6 @@ in this mini project i will use the libraries [mne](https://mne.tools/dev/index.
 - Convert data from volt to millivolt
 - Make the train set and the valid set
 - Define the model (in my case ShallowFBCSPNet from braindecode)
-- Determine the predictions per input/trial
 - Define the iterator, optimizer, epochs and the scheduler
 - Train!!! 
 - Test!!!
@@ -90,8 +89,6 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 
 ![shallow](https://github.com/DavidSilveraGabriel/Using-mne-and-braindecode/blob/master/img/shallow%20img.png)
 
-
-## Determine the predictions per input/trial
 
 ## Define the iterator, optimizer, epochs and the scheduler
 
