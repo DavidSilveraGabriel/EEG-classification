@@ -117,7 +117,7 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 ```
 
 ## Train!!! 
-### lets look the last 5 epochs
+### lets look the last 5 epochs ouputs 
 ```python
     Epoch 45
     Train  Loss: 0.11758
@@ -146,6 +146,8 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
     Valid  Accuracy: 77.0%
 ```
 ## Test!!!
+### lets print the ouput of the test 
+
 ```python
 
     Test Loss: 0.59670
