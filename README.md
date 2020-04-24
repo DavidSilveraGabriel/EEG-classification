@@ -163,5 +163,10 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 
 ```
 
+# Conclutions 
+--
+--
+--
+--
 
 
