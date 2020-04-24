@@ -30,9 +30,13 @@ https://physionet.org/content/eegmmidb/1.0.0/ <--- for know what dowload
 a litle resume 
 
  (open and close the left or right fist)               ---> 3,7,11 
+ 
  (imagine opening and closing the left or right fist)  ---> 4,8,12 <--- I chose this
+ 
  (open and close both fists or both feet)              ---> 5,9,13
+ 
  (imagine opening and closing both fists or both feet) ---> 6,10,14
+
 
 ```python
   # extract the data using the function mne.datasets.eegbci.load_data()
