@@ -164,9 +164,5 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 ```
 
 # Conclutions 
---
---
---
---
 
-
+Well, the first thing I got from this mini project was that I realized all the work behind the neuro technologies, I learned the basics of eeg data analysis, processing and its use to train complex neural networks like the one used in this work
