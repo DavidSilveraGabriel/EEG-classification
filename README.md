@@ -1,3 +1,19 @@
+
+#Introduction
+
+Brain Computer Interfaces (BCI) are a technology based on the
+acquisition and processing of brain signals for the control of various
+devices. Its main objective is to provide a new outlet channel to the
+user's brain that requires voluntary adaptive control. BCIs usually focus on recognizing events that are acquired by methods like the Electroencephalogram (EEG). 
+These events represent different
+mental states, which should be identified as different classes by
+a classification system. In BCI, after acquiring the brain signals, they are prepared for further processing. To extract
+and select the characteristics various methods are applied, in which, in
+Depending on the type of control signals used, it would be appropriate to identify
+a subset that optimizes the tasks for their classification. The selection of
+the most discriminative characteristics is essential when designing
+Functional BCI.
+
 # Using-mne-and-braindecode
 in this mini project i will use the libraries [mne](https://mne.tools/dev/index.html) and [braindecode](https://robintibor.github.io/braindecode/index.html) to analyze and classify public domain EEG(ML) signals provided by [physionet.org](https://physionet.org/content/eegmmidb/1.0.0/) here the [paper](https://arxiv.org/pdf/1703.05051.pdf) from braindecode
 
