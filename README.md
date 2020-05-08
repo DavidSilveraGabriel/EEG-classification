@@ -20,6 +20,11 @@ here the [paper](https://arxiv.org/pdf/1703.05051.pdf) from braindecode where is
 
 # Open the notebook in [colab](https://colab.research.google.com/drive/1a6st3wbP3pNUJw__Ys71ckfUxCbWqFIK)
 
+# objetive
+
+perform a classification of eeg data from the motor cortex
+
+
 # the steps 
 - Install the mne and braindecode librarie
 - Dowload the EEG data from physionet
