@@ -187,7 +187,5 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 
 # Conclutions 
 
-Well, the first thing I got from this mini project was that I realized all the work behind the neuro technologies, I learned the basics of eeg data analysis, processing and its use to train complex neural networks like the one used in this work
-
-ps: this is just one of the conclusions I drew
-I still have to keep updating
+The benefits of the brain computer interface (BCI) in the lives of people with disabilities can be enormous, imagine that a person in a wheelchair with dystonia, multiple sclerosis, or another disability that does not allow them to move even their arms To use a conventional wheelchair, this person is totally enclosed, lacking freedom in an unmovable body. reason why their life becomes much more difficult, that is why the development of BCI technologies are essential for these people
+Now my work here on this mini project has provided me with a slightly deeper understanding of electroencephalographic signals and their classification for later use in BCIs.
