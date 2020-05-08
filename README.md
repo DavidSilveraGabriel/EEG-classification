@@ -1,5 +1,5 @@
 
-#Introduction
+# Introduction
 
 Brain Computer Interfaces (BCI) are a technology based on the
 acquisition and processing of brain signals for the control of various
@@ -15,7 +15,8 @@ the most discriminative characteristics is essential when designing
 Functional BCI.
 
 # Using-mne-and-braindecode
-in this mini project i will use the libraries [mne](https://mne.tools/dev/index.html) and [braindecode](https://robintibor.github.io/braindecode/index.html) to analyze and classify public domain EEG(ML) signals provided by [physionet.org](https://physionet.org/content/eegmmidb/1.0.0/) here the [paper](https://arxiv.org/pdf/1703.05051.pdf) from braindecode
+in this mini project i will use the libraries [mne](https://mne.tools/dev/index.html) and [braindecode](https://robintibor.github.io/braindecode/index.html) to analyze and classify public domain EEG(ML) signals provided by [physionet.org](https://physionet.org/content/eegmmidb/1.0.0/)
+here the [paper](https://arxiv.org/pdf/1703.05051.pdf) from braindecode where is studied deep ConvNets with a range of different architectures, designed for decoding imagined or executed movements from raw EEG 
 
 # Open the notebook in [colab](https://colab.research.google.com/drive/1a6st3wbP3pNUJw__Ys71ckfUxCbWqFIK)
 
