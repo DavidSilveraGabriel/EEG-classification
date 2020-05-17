@@ -135,7 +135,8 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 
 ## Define the iterator, optimizer, epochs and the scheduler
 
-```pytohn
+```python
+
     iterator = CropsFromTrialsIterator(batch_size=64,input_time_length=input_time_length,
                                       n_preds_per_input=n_preds_per_input)
 
