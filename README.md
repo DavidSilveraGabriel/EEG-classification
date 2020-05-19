@@ -1,7 +1,7 @@
 
 # Introduction
 
-![Brain](https://www.technologynetworks.com/informatics/news/first-ever-non-invasive-brain-computer-interface-developed-320941)
+![Brain](https://cdn.technologynetworks.com/tn/images/thumbs/webp/640_360/first-ever-non-invasive-brain-computer-interface-developed-320941.webp?v=10240476)
 
 Brain Computer Interfaces (BCI) are a technology based on the
 acquisition and processing of brain signals for the control of various
@@ -196,6 +196,9 @@ Now my work here on this mini project has provided me with a deeper understandin
 ## References
 
 https://github.com/braindecode/braindecode
+
 image --> https://www.technologynetworks.com/informatics/news/first-ever-non-invasive-brain-computer-interface-developed-320941
+
 https://mne.tools/stable/index.html
+
 https://braindecode.org/
