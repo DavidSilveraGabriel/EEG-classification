@@ -1,6 +1,8 @@
 
 # Introduction
 
+![Brain](https://www.technologynetworks.com/informatics/news/first-ever-non-invasive-brain-computer-interface-developed-320941)
+
 Brain Computer Interfaces (BCI) are a technology based on the
 acquisition and processing of brain signals for the control of various
 devices. Its main objective is to provide a new outlet channel to the
@@ -190,3 +192,10 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
 
 The benefits of the brain computer interface (BCI) in the lives of people with disabilities can be enormous, imagine that a person in a wheelchair with dystonia, multiple sclerosis, or another disability that does not allow them to move even their arms To use a conventional wheelchair, this person is totally enclosed, lacking freedom in an unmovable body. reason why their life becomes much more difficult, that is why the development of BCI technologies are essential for these people
 Now my work here on this mini project has provided me with a deeper understanding of electroencephalographic signals and their classification for later use in BCIs. It has made me reflect on the importance of investing in the development and research of everything related to this area of computer science, the great impact that can be obtained by the development of such technologies, and finally it has given me the objective of contribute my grain of sand so that one day the people who suffer from these horrible disabilities can lead a normal life despite everything
+
+## References
+
+https://github.com/braindecode/braindecode
+image --> https://www.technologynetworks.com/informatics/news/first-ever-non-invasive-brain-computer-interface-developed-320941
+https://mne.tools/stable/index.html
+https://braindecode.org/
