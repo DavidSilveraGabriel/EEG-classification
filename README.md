@@ -1,4 +1,3 @@
-(update this)
 # Introduction
 
 ![Brain](https://cdn.technologynetworks.com/tn/images/thumbs/webp/640_360/first-ever-non-invasive-brain-computer-interface-developed-320941.webp?v=10240476)
