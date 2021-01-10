@@ -186,6 +186,7 @@ using the fuction SignalAndTarget from braindecode we can make the train and val
     Test Accuracy: 70.5%
 
 ```
+clearly the model was overfitted, not being able to generalize well the test and validation data
 
 # Conclutions 
 
